@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Roboto+Condensed:wght@300;400;700&display=swap%22");
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    margin:0;
+}
+
+.titulo{color:rgba(200, 180, 238, 0.521);
+
+}
+#titulocadastro{
+    color:#2986cc;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 30%;
+    
+}
+.formulario label{
+    color:#fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:16px ;
+    font-weight: bold;
+}
+.input{
+   
+    padding:4px 8px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.438);
+    border:none;
+}
+.input:focus{
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+.botao{
+    width: 100px;
+    height: 30px;
+    background-color: rgba(21, 180, 21, 0.781);
+    color:#fff;
+    border: none;
+    border-radius:8px ;
+    margin-top: 8px;
+    cursor:pointer;
+}
+.botao:hover{
+    background-color: rgba(21, 180, 21, 0.267);
+   
+}
+.fundo{
+    background-image: url("https://services.meteored.com/img/article/para-qual-lugar-o-universo-esta-se-expandindo-1685829316554_1280.png");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-size:cover ;
+}
+.texto{
+    color:#ffffffa9;
+    font-family:'Roboto Condensed', sans-serif ;
+    font-weight: bold;
+}
+.texto-area{
+    
+    padding:10px 8px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.795);
+    border:none;
+}
+h2{
+    color:#fff;
+    font-family:'Roboto Condensed', sans-serif ;
+    font-size: 15px;
+}
